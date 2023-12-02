@@ -8,8 +8,12 @@ export default function Header() {
         <a href="#" className="text-4xl uppercase">
           logo
         </a>
-        <nav className="">
-          <ul className="">
+        <nav
+          className={`fixed lg:relative bg-white    right-0 top-0 w-1/2 h-screen lg:h-auto lg:w-auto  flex items-center justify-center lg:block lg:ml-10 lg:translate-x-0 translate-x-full  overflow-hidden duration-300 transition-all   lg:transition-none`}
+        >
+          <ul
+            className={`flex flex-col lg:flex-row lg:space-x-5 space-x-0 uppercase text-2xl text-center space-y-10 lg:space-y-0 w-full h-full  lg:shadow-none  shadow-2xl `}
+          >
             <li>
               <a href="#">home</a>
             </li>
